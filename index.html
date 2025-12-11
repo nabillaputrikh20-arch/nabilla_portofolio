@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Nabilla Kharisma Putri</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="site">
+    <header class="hero">
+      <div class="hero-inner">
+        <div class="profile-card">
+          <div class="avatar-wrap">
+            <img src="BILLA.jpg.jpeg" alt="Foto Profil" class="avatar" />
+          </div>
+          <h1 class="name">Nabilla Kharisma Putri</h1>
+          <p class="role">Frontend Developer • UI Enthusiast</p>
+          <p class="tagline">
+            Saya membuat website yang menarik dan cepat.
+            <span class="typing"> HTML • CSS • JS </span>
+          </p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">Lihat Projek</a>
+            <a href="#contact" class="btn ghost">Kontak</a>
+          </div>
+        </div>
+
+        <div class="bio">
+          <h2>Tentang saya</h2>
+          <p>Halo! Saya seorang Junior Programmer dengan minat besar di dunia pengembangan digital. Saya berpengalaman dalam membuat website yang responsif dan modern. saya selalu berusaha untuk terus belajar, berinovasi, dan menciptakan solusi digital yang bermanfaat bagi banyak orang.</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="projects" class="projects">
+      <h2 class="section-title">Projek Terpilih</h2>
+      <div class="cards">
+        <article class="card" style="--i:0">
+          <div class="card-inner">
+            <img src="project1.jpeg">
+            <h3>Website toko online</h3>
+            <p>Website toko baju online yang menyediakan berbagai pilihan fashion trendy, nyaman dan berkualitas. Belanja lebih mudah dan cepat hanya satu dalam satu kali klik. Menggunakan  HTML dan CSS.</p>
+            <a class="card-link" href="#">Lihat</a>
+          </div>
+        </article>
+
+        <article class="card" style="--i:1">
+          <div class="card-inner">
+            <img src="project2.jpeg">
+            <h3>Website Biodata</h3>
+            <p>Website biodata diri yang berisi informasi singkat tentang profil saya. Dibuat untuk memudahkan orang mengenal saya secara lebih jelas. Menggunakan HTML, CSS, PHP, serta database MySQL.</p>
+            <a class="card-link" href="#">Lihat</a>
+          </div>
+        </article>
+
+        <article class="card" style="--i:2">
+          <div class="card-inner">
+            <img src="project3.jpeg">
+            <h3>Tabel jadwal pelajaran</h3>
+            <p>Jadwal pelajaran ini di buat agar terlihat rapih baik di layar laptop maupun smartphone. Desainnya dibuat sederhana agar mudah dipahami oleh siswa. Menggunakan HTML dan CSS.</p>
+            <a class="card-link" href="#">Lihat</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="section-title">Kontak</h2>
+      <p>email: <a href="mailto:email@kamu.com">nabillaputri.kh20@gmail.com</a> • IG: @khyl.byya</p>
+    </section>
+
+    <footer class="footer">
+      <small>© <span id="year"></span> Nabilla. All rights reserved.</small>
+    </footer>
+  </main>
+
+  <script>
+    // isi tahun otomatis dan sedikit progressive enhancement untuk menghilangkan flash
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+<header class="hero">
+
+  <!-- 🆕 Box untuk logo sekolah & jurusan -->
+  <div class="logo-box">
+    <img src="logocitranegara.jpeg" alt="Logo Sekolah" class="logo logo-sekolah" />
+    <img src="logojurusan.jpeg" alt="Logo Jurusan" class="logo logo-jurusan" />
+  </div>
+
+  <div class="hero-inner">
+
+</body>
+</html>
